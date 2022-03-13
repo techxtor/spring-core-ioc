@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="alienAC" class="com.techxtor.applicationcontext.AlienAC"></bean>
+
+    <bean id="alienC" class="com.techxtor.container.AlienC" scope="singleton"></bean>
+
+    <bean id="alienSP" class="com.techxtor.singletonprototype.AlienSP" scope="prototype"></bean>
+
+    <bean id="alienSIP" class="com.techxtor.setterinjection.primitive.AlienSIP">
+        <!--        calls setAge()-->
+        <property name="age" value="12"></property>
+    </bean>
+
+    <bean id="alienSIR" class="com.techxtor.setterinjection.reference.AlienSIR">
+        <!--        calls setAge()-->
+        <property name="age" value="20"></property>
+        <!--        laptopSIR -> ref laptopSIR is laptopSIR bean in spring.xml-->
+        <!--        calls setLaptop()-->
+        <property name="laptopSIR" ref="laptopSIR"></property>
+    </bean>
+    <bean id="laptopSIR" class="com.techxtor.setterinjection.reference.LaptopSIR"></bean>
+
+
+    <!--    calls default constructor by default-->
+
+    <!--  removing constructor-arg would result in err -> as it looks for default constructor, which is commented-->
+    <bean id="alienCI" class="com.techxtor.constructorinjection.AlienCI">
+        <constructor-arg value="32"></constructor-arg>
+        <!--        <property name="age" value="20"></property>-->
+        <property name="laptopCI" ref="laptopCI"></property>
+    </bean>
+    <bean id="laptopCI" class="com.techxtor.constructorinjection.LaptopCI"></bean>
+
+    <!-- conventional
+
+        <bean id="alien" class="com.techxtor.autowire.Alien">
+    &lt;!&ndash;        <property name="computer" ref="laptop"></property>&ndash;&gt;
+            <property name="computer" ref="desktop"></property>
+        </bean>
+        <bean id = "laptop" class="com.techxtor.autowire.Laptop"></bean>
+        <bean id = "desktop" class="com.techxtor.autowire.Desktop"></bean>
+
+    -->
+
+    <!-- autowire byName -->
+    <!-- lookup property name <-> bean name -->
+    <!--
+        <bean id="alien" class="com.techxtor.autowire.Alien" autowire="byName">
+            &lt;!&ndash;        if name and ref same - can be removed when viz. autowire&ndash;&gt;
+            &lt;!&ndash;        <property name="computer" ref="computer"></property>&ndash;&gt;
+
+            &lt;!&ndash;        <property name="computer" ref="desktop"></property>&ndash;&gt;
+        </bean>
+        <bean id="computer" class="com.techxtor.autowire.Laptop"></bean>
+        <bean id="desktop" class="com.techxtor.autowire.Desktop"></bean>
+
+    -->
+
+    <!-- autowire byType -->
+    <!-- lookup property type <-> bean type -->
+    <bean id="alien" class="com.techxtor.autowire.Alien" autowire="byType">
+
+    </bean>
+    <bean id="laptop" class="com.techxtor.autowire.Laptop" primary="true"></bean>
+    <bean id="desktop" class="com.techxtor.autowire.Desktop"></bean>
+
+</beans>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b167a6f-c944-4a99-9412-9ef721c0352d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26LF80AjwN7tFaygUSHmcWO5ofC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/techxtor/constructorinjection" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring\spring-core-ioc\src\main\resources" />
+      <recent name="D:\Spring\spring-core-ioc\src\main\java\com\techxtor\beanfactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.techxtor.applicationcontext" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spring\spring-core-ioc\src\main\java\com\techxtor\constructorinjection" />
+      <recent name="D:\Spring\spring-core-ioc\src\main\java\com\techxtor\singletonprototype" />
+      <recent name="D:\Spring\spring-core-ioc\src\main\java\com\techxtor\container" />
+      <recent name="D:\Spring\spring-core-ioc" />
+      <recent name="D:\Spring\spring-core-ioc\src\main\java\com\techxtor\beanfactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.applicationcontext.App" />
+      <module name="spring-core-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.applicationcontext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.autowire.App" />
+      <module name="spring-core-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.autowire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppCI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.constructorinjection.AppCI" />
+      <module name="spring-core-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.constructorinjection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppSIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.setterinjection.primitive.AppSIP" />
+      <module name="spring-core-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.setterinjection.primitive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppSIR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.setterinjection.reference.AppSIR" />
+      <module name="spring-core-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.setterinjection.reference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.singletonprototype.AppSP" />
+      <module name="spring-core-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.singletonprototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.AppCI" />
+        <item itemvalue="Application.AppSIR" />
+        <item itemvalue="Application.AppSIP" />
+        <item itemvalue="Application.AppSP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b167a6f-c944-4a99-9412-9ef721c0352d" name="Default Changelist" comment="" />
+      <created>1647194796383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647194796383</updated>
+      <workItem from="1647194797954" duration="9953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1647201982650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1647201982650" />
+    <state x="343" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1647200025064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="343" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1647200025064" />
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1647203430525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1647203430525" />
+    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1647203430525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1647203430525" />
+    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1647203430525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1647203430525" />
+    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1647203430525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1647203430525" />
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1647195215869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1647195215869" />
+  </component>
+</project>
