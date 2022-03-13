@@ -16,7 +16,7 @@
   - created by `ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");`
   - in case of `scope="prototype"`, bean(s) are created when asked for. 
   - when bean(s) are created, constructor is called
-- Spring, by default, follows *Singleton Design Pattern* - i.e. by default, Spring container will provide only one object.
+- Spring, by default, follows **Singleton Design Pattern** - i.e. by default, Spring container will provide only one object.
   - to get multiple objects, add xml property to bean: `scope="prototype"`
 - Two different types of injections are available:
   - Setter Injection
