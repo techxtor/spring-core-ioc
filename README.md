@@ -4,7 +4,6 @@ Spring Core IoC
 ---
 * [Details on IoC and Dependency Injection](https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring)
 * [Details on ApplicationContext](https://www.baeldung.com/spring-component-annotation#spring-applicationcontext)
-* 
 ### Order of Reading:
 - Bean Factory
 - Application Context
